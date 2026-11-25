@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    name: Build Docker image
+    name: Build Docker image on Ubuntu
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
